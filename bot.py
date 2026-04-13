@@ -11,7 +11,7 @@ from telegram.ext import (
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8794449146:AAGCp00RHcUuCJpPRZ0ESTEC-yzKcai7ajg")
 ADMIN_IDS = list(map(int, os.environ.get("ADMIN_IDS", "5371043130").split(",")))
 
-DB_FILE = "database.db"
+DB_FILE = "/app/data/database.db"
 
 logging.basicConfig(
     level=logging.INFO,
